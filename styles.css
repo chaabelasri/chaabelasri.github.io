@@ -209,7 +209,7 @@ main {
 .publications-list {
     list-style-type: none;
     padding: 0;
-    counter-reset: publication-counter;
+    /*counter-reset: publication-counter;*/
 }
 
 .publications-list.reversed {
@@ -261,4 +261,5 @@ main {
     text-align: center;
     margin-bottom: 20px;
     color: var(--secondary-color);
+
 }
